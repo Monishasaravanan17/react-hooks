@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import HookCounter from './component/HooksCounter';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello world</h1>
+      <HookCounter/>
     </div>
   );
 }
