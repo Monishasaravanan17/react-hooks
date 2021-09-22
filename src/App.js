@@ -13,8 +13,8 @@
 // import React from 'react';
 // import HooksContextA from './component/HooksContextA';
 import './App.css';
-import ReduceCounter from './component/ReduceCounter';
-
+// import ReduceCounter from './component/ReduceCounter';
+import ReduceCountercplx from './component/ReduceCountercplx';
 // export const UserContext = React.createContext()
 // export const ChannelContext = React.createContext()
 
@@ -38,7 +38,8 @@ function App() {
           {/* <HooksContextA /> */}
         {/* </ChannelContext.Provider> */}
       {/* </UserContext.Provider> */}
-      <ReduceCounter/>
+      {/* <ReduceCounter/> */}
+      <ReduceCountercplx/>
 
     </div>
   );
