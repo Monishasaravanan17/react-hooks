@@ -7,8 +7,9 @@
 // import Hooksmouse from './component/Hooksmouse';
 // import MouseContainer from './component/MouseContainer';
 // import HooksTimer from './component/HooksTimer';
-// import DataFetching from './component/DataFetching';
-import DataFetchingtwo from './component/DataFetchingtwo';
+// import DataFetchingone from './component/DataFetchingone';
+// import DataFetchingtwo from './component/DataFetchingtwo';
+import DataFetchingthree from './component/DataFetchingthree';
 import './App.css';
 
 function App() {
@@ -24,8 +25,9 @@ function App() {
       {/* <Hooksmouse/> */}
       {/* <MouseContainer/> */}
       {/* <HooksTimer/> */}
-      {/* <DataFetching/> */}
-      <DataFetchingtwo/>
+      {/* <DataFetchingone/> */}
+      {/* <DataFetchingtwo/> */}
+      <DataFetchingthree/>
       
     </div>
   );

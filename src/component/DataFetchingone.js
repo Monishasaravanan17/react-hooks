@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-function DataFetching() {
+function DataFetchingone() {
     const [posts, setPosts] = useState([])
 
     useEffect(() => {
@@ -26,4 +26,4 @@ function DataFetching() {
         </div>
     )
 }
-export default DataFetching;
+export default DataFetchingone;
