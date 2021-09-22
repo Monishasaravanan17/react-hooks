@@ -9,15 +9,19 @@
 // import HooksTimer from './component/HooksTimer';
 // import DataFetchingone from './component/DataFetchingone';
 // import DataFetchingtwo from './component/DataFetchingtwo';
-import DataFetchingthree from './component/DataFetchingthree';
+// import DataFetchingthree from './component/DataFetchingthree';
+import React from 'react';
+import HooksContextA from './component/HooksContextA';
 import './App.css';
+
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-       {/* <HookCounter/> */}
-       {/* <HooksCounterone/> */}
+    <div>
+      {/* <HookCounter/> */}
+      {/* <HooksCounterone/> */}
       {/* <HooksCountertwo/> */}
       {/* <HooksCounterthree/> */}
       {/* <HooksCounterfour/> */}
@@ -27,8 +31,13 @@ function App() {
       {/* <HooksTimer/> */}
       {/* <DataFetchingone/> */}
       {/* <DataFetchingtwo/> */}
-      <DataFetchingthree/>
-      
+      {/* <DataFetchingthree/> */}
+      <UserContext.Provider value={'vishwas'} >
+        <ChannelContext.Provider value={'codevolution'}>
+          <HooksContextA />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
+
     </div>
   );
 }
