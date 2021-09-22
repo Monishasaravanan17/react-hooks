@@ -5,7 +5,8 @@
 // import HooksCounterfour from './component/HooksCounterfour';
 // import HooksCounterfive from './component/HooksCounterfive';
 // import Hooksmouse from './component/Hooksmouse';
-import MouseContainer from './component/MouseContainer';
+// import MouseContainer from './component/MouseContainer';
+import HooksTimer from './component/HooksTimer';
 import './App.css';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       {/* <HooksCounterfour/> */}
       {/* <HooksCounterfive/> */}
       {/* <Hooksmouse/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      <HooksTimer/>
       
     </div>
   );
