@@ -12,32 +12,32 @@ function HooksTimer() {
     //   single useEffect function
     // 
     // 
-    // useEffect(() => {
-    // const interval = setInterval(tick,1000)
-    // return () => {
-    // clearInterval(interval)
-    // }
-    // },
+    useEffect(() => {
+    const interval = setInterval(tick,1000)
+    return () => {
+    clearInterval(interval)
+    }
+    },
     // for dependency arr we have to write the variable within the list
     // [count]
     // empty list is without dependency method
-    // [])
+    [])
     // 
     // 
     // end of single useEffect
 
 
     // multiple useEffect
-    useEffect(() => {
-        function doSomething(){
-            console.log(someProp)
-        }
-        doSomething()
-        const interval = setInterval(tick , 1000)
-        return () => {
-            clearInterval(interval)
-        }
-    },[someProp])
+    // useEffect(() => {
+        // function doSomething(){
+            // console.log(someProp)
+        // }
+        // doSomething()
+        // const interval = setInterval(tick , 1000)
+        // return () => {
+            // clearInterval(interval)
+        // }
+    // },[someProp])
 
     return (
         <div>
