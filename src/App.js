@@ -10,12 +10,13 @@
 // import DataFetchingone from './component/DataFetchingone';
 // import DataFetchingtwo from './component/DataFetchingtwo';
 // import DataFetchingthree from './component/DataFetchingthree';
-import React from 'react';
-import HooksContextA from './component/HooksContextA';
+// import React from 'react';
+// import HooksContextA from './component/HooksContextA';
 import './App.css';
+import ReduceCounter from './component/ReduceCounter';
 
-export const UserContext = React.createContext()
-export const ChannelContext = React.createContext()
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
 
 function App() {
   return (
@@ -32,11 +33,12 @@ function App() {
       {/* <DataFetchingone/> */}
       {/* <DataFetchingtwo/> */}
       {/* <DataFetchingthree/> */}
-      <UserContext.Provider value={'vishwas'} >
-        <ChannelContext.Provider value={'codevolution'}>
-          <HooksContextA />
-        </ChannelContext.Provider>
-      </UserContext.Provider>
+      {/* <UserContext.Provider value={'vishwas'} > */}
+        {/* <ChannelContext.Provider value={'codevolution'}> */}
+          {/* <HooksContextA /> */}
+        {/* </ChannelContext.Provider> */}
+      {/* </UserContext.Provider> */}
+      <ReduceCounter/>
 
     </div>
   );
